@@ -1,0 +1,11 @@
+{
+  "master_seed": 42,
+  "fold_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "description": "Seed configuration for reproducibility"
+}

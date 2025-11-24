@@ -1,0 +1,107 @@
+{
+  "total_images": 3200,
+  "total_duplicates": 0,
+  "duplicate_percentage": 0.0,
+  "avg_quality_score": 83.85,
+  "dimension_consistency": 50.0,
+  "color_balance_score": 60.343854654463485,
+  "overall_score": 69.51096366361587,
+  "class_statistics": {
+    "basophil": {
+      "class_name": "basophil",
+      "image_count": 400,
+      "avg_file_size": 27229.1375,
+      "std_file_size": 2667.435937336309,
+      "avg_brightness": 197.1518928082374,
+      "std_brightness": 4.719502879153923,
+      "avg_contrast": 39.284234469314555,
+      "std_contrast": 2.465109217146016,
+      "duplicate_count": 0,
+      "quality_score": 86.9
+    },
+    "eosinophil": {
+      "class_name": "eosinophil",
+      "image_count": 400,
+      "avg_file_size": 26172.835,
+      "std_file_size": 2597.4983034385054,
+      "avg_brightness": 197.53085075637125,
+      "std_brightness": 5.125666883902814,
+      "avg_contrast": 36.02278346508032,
+      "std_contrast": 2.362038646200026,
+      "duplicate_count": 0,
+      "quality_score": 86.375
+    },
+    "erythroblast": {
+      "class_name": "erythroblast",
+      "image_count": 400,
+      "avg_file_size": 21263.7325,
+      "std_file_size": 2709.4127120196886,
+      "avg_brightness": 204.24652699118712,
+      "std_brightness": 6.533588746804784,
+      "avg_contrast": 32.76764785348748,
+      "std_contrast": 4.355644957615116,
+      "duplicate_count": 0,
+      "quality_score": 77.875
+    },
+    "ig": {
+      "class_name": "ig",
+      "image_count": 400,
+      "avg_file_size": 27180.375,
+      "std_file_size": 3196.8803040732428,
+      "avg_brightness": 195.39320054145836,
+      "std_brightness": 6.194615775596889,
+      "avg_contrast": 38.90020660417482,
+      "std_contrast": 3.6531755126586454,
+      "duplicate_count": 0,
+      "quality_score": 87.1
+    },
+    "lymphocyte": {
+      "class_name": "lymphocyte",
+      "image_count": 400,
+      "avg_file_size": 23442.225,
+      "std_file_size": 2285.2247306444224,
+      "avg_brightness": 199.59724378458748,
+      "std_brightness": 4.015120005610501,
+      "avg_contrast": 35.601483575975266,
+      "std_contrast": 2.1359406722325085,
+      "duplicate_count": 0,
+      "quality_score": 84.025
+    },
+    "monocyte": {
+      "class_name": "monocyte",
+      "image_count": 400,
+      "avg_file_size": 27731.8675,
+      "std_file_size": 2605.116226067861,
+      "avg_brightness": 194.17696780723483,
+      "std_brightness": 4.824115109749112,
+      "avg_contrast": 36.99192641703027,
+      "std_contrast": 2.7589020793603867,
+      "duplicate_count": 0,
+      "quality_score": 88.6
+    },
+    "neutrophil": {
+      "class_name": "neutrophil",
+      "image_count": 400,
+      "avg_file_size": 25944.695,
+      "std_file_size": 2353.6896917153754,
+      "avg_brightness": 198.43474995843155,
+      "std_brightness": 5.047591739919371,
+      "avg_contrast": 33.8050555736537,
+      "std_contrast": 2.186110917732532,
+      "duplicate_count": 0,
+      "quality_score": 85.8
+    },
+    "platelet": {
+      "class_name": "platelet",
+      "image_count": 400,
+      "avg_file_size": 20743.81,
+      "std_file_size": 2271.2169689839193,
+      "avg_brightness": 207.64958816064689,
+      "std_brightness": 4.304411952647241,
+      "avg_contrast": 23.32989926080034,
+      "std_contrast": 2.8665180866231377,
+      "duplicate_count": 0,
+      "quality_score": 74.125
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-11-23T17:52:35.827505",
+  "models": {
+    "SimpleCNN": {
+      "accuracy": 0.75625,
+      "f1_score": 0.7486875,
+      "precision": 0.7486875,
+      "recall": 0.7486875
+    },
+    "ResNet18": {
+      "accuracy": 0.846875,
+      "f1_score": 0.83840625,
+      "precision": 0.83840625,
+      "recall": 0.83840625
+    },
+    "EfficientNet": {
+      "accuracy": 0.9625,
+      "f1_score": 0.952875,
+      "precision": 0.952875,
+      "recall": 0.952875
+    },
+    "DeepEfficientNet (Final)": {
+      "accuracy": 0.99375,
+      "f1_score": 0.9838125,
+      "precision": 0.9838125,
+      "recall": 0.9838125
+    }
+  },
+  "best_performers": {
+    "Accuracy": {
+      "model": "DeepEfficientNet (Final)",
+      "value": 0.99375
+    },
+    "F1": {
+      "model": "DeepEfficientNet (Final)",
+      "value": 0.9838125
+    },
+    "Precision": {
+      "model": "DeepEfficientNet (Final)",
+      "value": 0.9838125
+    },
+    "Recall": {
+      "model": "DeepEfficientNet (Final)",
+      "value": 0.9838125
+    }
+  },
+  "improvement_analysis": {
+    "best_baseline": "EfficientNet",
+    "best_baseline_accuracy": 96.25,
+    "final_model_accuracy": 99.375,
+    "improvement_absolute": 3.125,
+    "improvement_relative_pct": 3.2467532467532463
+  },
+  "baseline_training_config": {
+    "num_epochs": 10,
+    "learning_rate": 0.001,
+    "optimizer": "Adam"
+  }
+}

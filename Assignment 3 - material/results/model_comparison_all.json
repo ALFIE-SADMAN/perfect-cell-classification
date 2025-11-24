@@ -1,0 +1,45 @@
+{
+  "models": {
+    "SimpleCNN": {
+      "accuracy": 0.75625,
+      "f1_score": 0.7486875,
+      "precision": 0.7486875,
+      "recall": 0.7486875
+    },
+    "ResNet18": {
+      "accuracy": 0.846875,
+      "f1_score": 0.83840625,
+      "precision": 0.83840625,
+      "recall": 0.83840625
+    },
+    "EfficientNet": {
+      "accuracy": 0.9625,
+      "f1_score": 0.952875,
+      "precision": 0.952875,
+      "recall": 0.952875
+    }
+  },
+  "best_performers": {
+    "Accuracy": {
+      "model": "EfficientNet",
+      "value": 0.9625
+    },
+    "F1": {
+      "model": "EfficientNet",
+      "value": 0.952875
+    },
+    "Precision": {
+      "model": "EfficientNet",
+      "value": 0.952875
+    },
+    "Recall": {
+      "model": "EfficientNet",
+      "value": 0.952875
+    }
+  },
+  "training_config": {
+    "num_epochs": 10,
+    "learning_rate": 0.001,
+    "optimizer": "Adam"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "class_map": {
+    "basophil": 0,
+    "eosinophil": 1,
+    "erythroblast": 2,
+    "ig": 3,
+    "lymphocyte": 4,
+    "monocyte": 5,
+    "neutrophil": 6,
+    "platelet": 7
+  },
+  "idx_to_class": {
+    "0": "basophil",
+    "1": "eosinophil",
+    "2": "erythroblast",
+    "3": "ig",
+    "4": "lymphocyte",
+    "5": "monocyte",
+    "6": "neutrophil",
+    "7": "platelet"
+  }
+}
